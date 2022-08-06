@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 253, 245);
+}
+#header{
+    display: flex;
+}
+#I4GLogo{
+    margin: 0;
+    padding: 0;
+}
+.link_container a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+.first_main{
+    display: flex;
+}
+.second_main{
+    display: flex;
+}
+.third_main{
+    display: flex;
+}
