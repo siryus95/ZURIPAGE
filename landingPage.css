@@ -4,6 +4,13 @@
 }
 body{
     height: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+.zuri-logo-full{
+    padding: 8rem 0 2rem 0;
+}
+.h1{
+    padding: 3rem;
 }
 #header{
     background-image: url(../img/hero-bg.svg);
@@ -13,6 +20,191 @@ body{
     text-align: center;
 }
 .header_p{
-    width: 50%;
-    
+    margin: auto;
+    width: 45rem;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-bottom:3rem ;
+    text-align: center;
+    justify-items: center;
+    color: #6c757d;
+}
+.beginner_link{
+    text-decoration: none;
+    color: #dc3545;
+}
+.link_other_page{
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    background-color:white;
+    padding: .7rem 2rem;
+    margin: .5rem;
+}
+.link_other_page2{
+    border: 1px solid #dc3545;
+    color: white;
+    background-color:#dc3545;
+    padding: .7rem 2rem;
+    margin: .5rem;
+}
+#main_container{
+    margin: auto;
+}
+.first_main{
+    display: block;
+}
+.by_zuri{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: Averta, sans-serif;
+    font-weight: 400;
+    font-style:normal ;
+    color: #dc3545;
+    padding: 10rem 0 .2rem 0;
+}
+.p_main{
+    margin: auto;
+    font-size: 1.5rem;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    width: 26rem;
+    text-align: center;
+    padding: 1rem 0 .2rem 0;
+}
+.main_first{
+    display: flex;
+}
+.left{
+    display: flex;
+}
+.left_bvmv{
+    position: relative;
+    width: 24rem;
+    height: 30rem;
+}
+.main_left_div{
+    position: absolute;
+    background-color:#FFFAFA;
+    font-family:Averta, sans-serif;
+    padding: 3rem;
+    left: 4.9rem;
+    top: 51.8rem;
+    width: 20%;
+}
+.zuri-training-img{
+    padding: .5rem .5rem 3rem .5rem;
+}
+.main_left_p{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    padding: .5rem 2rem 3rem .5rem;
+}
+.training{
+    text-decoration: none;
+    color: #dc3545;
+}
+.middle{
+    background-color: #FFFAFA;
+    margin-left: 6rem;
+    margin-top: 4.5rem;
+    margin-right: 9.5rem;
+    padding-bottom: 3rem;
+}
+.zuri-internship-img{
+    padding: 3.5rem .5rem 3rem 3em;
+}
+.main_middle_p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    padding: .5rem 2rem 6rem 3rem;
+}
+.internship{
+    text-decoration: none;
+    color: #dc3545;
+    padding-left: 3rem;
+}
+.right{
+    display: flex;
+}
+.right_yz6hn3{
+    position: relative;
+    width: 20.5rem;
+    height: 30rem;
+    mix-blend-mode:darken;
+   
+}
+.main_right_div{
+    position: absolute;
+    background-color:#FFFAFA;
+    font-family:Averta, sans-serif;
+    padding: 3rem;
+    right: 4rem;
+    top: 51.8rem;
+    width: 21%;
+}
+.main_right_p{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    padding: 4rem 2rem 5rem 0rem;
+}
+.talent{
+    text-decoration: none;
+    color: #dc3545;
+}
+.last_main_container{
+    display: flex;
+    border-bottom: 1px solid rgb(164, 161, 161);
+    border-width: 30%;
+}
+.zuri-logo{
+   padding: 14rem 12rem 10rem 4rem;
+}
+.column2{
+    padding: 17rem 10rem 10rem 3em;
+}
+.column2_link1{
+    display: block;
+    text-decoration: none;
+    color: #dc3545;
+    padding: .8rem 0;
+}
+.column2_link2{
+    text-decoration: none;
+    color: #dc3545;
+}
+.contact{
+    padding: 17rem 10rem 10rem 4em;
+    width: 19%;
+}
+.contact a{
+    text-decoration: none;
+    color: #dc3545;
+    padding: .8rem 0;
+}
+.follow_us{
+    padding: 17rem 1rem 10rem 4em;
+}
+.follow_us img{
+    width: 15px;
+    height: 15px;
+    padding: .2rem;
+}
+#footer{
+    width: auto;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 600;
+
 }
